@@ -9,11 +9,10 @@ const CommonReviewForm = () => {
 
    return (
       <>
-         <h4 className="mb-20">Leave A Reply</h4>
+         <h4 className="mb-20">Сэтгэгдэл үлдээх</h4>
          <p className="fs-20 lh-lg pb-15">
          <Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
-				className="color-dark fw-500 text-decoration-underline">Sign in</Link> to post your comment or
-            signup if you don&apos;t have any account.</p>
+				className="color-dark fw-500 text-decoration-underline">Нэвтрэх</Link> эсвэл бүртгүүлж сэтгэгдэл үлдээнэ үү.</p>
 
          <AgencyFormOne style={true} />
 

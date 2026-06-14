@@ -8,7 +8,7 @@ const ReviewArea = () => {
         <div className="accordion-item">
             <h2 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseElevenA" aria-expanded="true" aria-controls="collapseElevenA">
-                    Review about Glenridge
+                     Glenridge-ийн талаарх сэтгэгдэл
                 </button>
             </h2>
             <div id="collapseElevenA" className="accordion-collapse collapse">
@@ -18,9 +18,9 @@ const ReviewArea = () => {
                             <div className="d-flex justify-content-sm-end">
                                 <NiceSelect className="nice-select rounded-0"
                                     options={[
-                                        { value: "01", text: "Newest" },
-                                        { value: "02", text: "Best Seller" },
-                                        { value: "03", text: "Best Match" },
+                                        { value: "01", text: "Шинэ" },
+                                        { value: "02", text: "Шилдэг" },
+                                        { value: "03", text: "Тохирох" },
                                     ]}
                                     defaultCurrent={0}
                                     onChange={selectHandler}

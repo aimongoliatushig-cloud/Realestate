@@ -1,4 +1,4 @@
-import { StaticImageData } from "next/image";
+﻿import { StaticImageData } from "next/image";
 
 import featureIcon_1 from "@/assets/images/icon/icon_01.svg";
 import featureIcon_2 from "@/assets/images/icon/icon_02.svg";
@@ -52,7 +52,7 @@ const feature_data: DataType[] = [
       icon: featureIcon_1,
       title: "Buy a home",
       btn:"Find Home",
-      desc: "Explore HOZN 2 million+ homes and uncover your ideal living space.",
+      desc: "Explore UA Properties 2 million+ homes and uncover your ideal living space.",
    },
    {
       id: 2,
@@ -60,7 +60,7 @@ const feature_data: DataType[] = [
       icon: featureIcon_2,
       title: "RENT A HOME",
       btn:"Rent Home",
-      desc: "Discover a rental you'll love on HOZN, thanks to 35+ filters and tailored keywords.",
+      desc: "Discover a rental you'll love on UA Properties, thanks to 35+ filters and tailored keywords.",
    },
    {
       id: 3,
@@ -115,118 +115,118 @@ const feature_data: DataType[] = [
       id: 1,
       page: "home_1_feature_3",
       icon: feature3Icon_1,
-      title: "Create Account",
-      desc: "It’s very easy to open an account and start your journey.",
+      title: "Бүртгүүлэх",
+      desc: "Бүртгүүлж өөрийн профайлаа үүсгэх нь маш хялбар.",
    },
    {
       id: 2,
       page: "home_1_feature_3",
       class_name:"arrow position-relative",
       icon: feature3Icon_2,
-      title: "Find Home",
-      desc: "Complete your profile with all the info to get attention of client.",
+      title: "Байр хайх",
+      desc: "Профайлаа бөглөж үйлчлүүлэгчдийн анхаарлыг татах.",
    },
    {
       id: 3,
       page: "home_1_feature_3",
       icon: feature3Icon_3,
-      title: "Quick Process",
-      desc: "Apply & get your preferable jobs with all the requirements and get it.",
+      title: "Шуурхай үйлчилгээ",
+      desc: "Бүх шаардлагыг хангаж хүссэн байраа шуурхай олох.",
    },
 
    // home_two_feature_1
 
    {
-      id: 1,
-      page: "home_2_feature_1",
-      item_bg: "location-card-1",
-      title: "Kelowna",
-   },
-   {
-      id: 2,
-      page: "home_2_feature_1",
-      item_bg: "location-card-2",
-      title: "West Kelowna",
-      data_delay_time: "0.1s",
-   },
-   {
-      id: 3,
-      page: "home_2_feature_1",
-      item_bg: "location-card-3",
-      title: "Lake Country",
-      data_delay_time: "0.2s",
-   },
-   {
-      id: 4,
-      page: "home_2_feature_1",
-      item_bg: "location-card-4",
-      title: "Vernon",
-   },
-   {
-      id: 5,
-      page: "home_2_feature_1",
-      item_bg: "location-card-5",
-      title: "Peachland",
-      data_delay_time: "0.1s",
-   },
-   {
-      id: 6,
-      page: "home_2_feature_1",
-      item_bg: "location-card-6",
-      title: "Penticton",
-      data_delay_time: "0.2s",
-   },
+       id: 1,
+       page: "home_2_feature_1",
+       item_bg: "location-card-1",
+       title: "Баянзүрх",
+    },
+    {
+       id: 2,
+       page: "home_2_feature_1",
+       item_bg: "location-card-2",
+       title: "Сүхбаатар",
+       data_delay_time: "0.1s",
+    },
+    {
+       id: 3,
+       page: "home_2_feature_1",
+       item_bg: "location-card-3",
+       title: "Хан-Уул",
+       data_delay_time: "0.2s",
+    },
+    {
+       id: 4,
+       page: "home_2_feature_1",
+       item_bg: "location-card-4",
+       title: "Баянгол",
+    },
+    {
+       id: 5,
+       page: "home_2_feature_1",
+       item_bg: "location-card-5",
+       title: "Чингэлтэй",
+       data_delay_time: "0.1s",
+    },
+    {
+       id: 6,
+       page: "home_2_feature_1",
+       item_bg: "location-card-6",
+       title: "Сонгинохайрхан",
+       data_delay_time: "0.2s",
+    },
 
-   // home_two_feature_2
+    // home_two_feature_2
 
-   {
-      id: 1,
-      page: "home_two_feature_2",
-      img: featureImg_1,
-      title: "Explore & buy Home",
-      tag: "BUY HOME",
-      data_delay_time: "0.2s",
-   },
-   {
-      id: 2,
-      page: "home_two_feature_2",
-      img: featureImg_2,
-      title: "List & Sell quickly",
-      tag: "Sell Now",
-      data_delay_time: "0.1s",
-   },
-   {
-      id: 3,
-      page: "home_two_feature_2",
-      img: featureImg_3,
-      title: "Discover & get Rental",
-      tag: "RENT NOW",
-      data_delay_time: "0.2s",
-   },
+    {
+       id: 1,
+       page: "home_two_feature_2",
+       img: featureImg_1,
+       title: "Хайх, худалдаж авах",
+       tag: "ХУДАЛДАХ",
+       data_delay_time: "0.2s",
+    },
+    {
+       id: 2,
+       page: "home_two_feature_2",
+       img: featureImg_2,
+       title: "Зарлах, худалдах",
+       tag: "ЗАРЛАХ",
+       data_delay_time: "0.1s",
+    },
+    {
+       id: 3,
+       page: "home_two_feature_2",
+       img: featureImg_3,
+       title: "Түрээслэх",
+       tag: "ТҮРЭЭСЛЭХ",
+       data_delay_time: "0.2s",
+    },
 
-   // home_two_feature_3
+    // home_two_feature_3
 
-   {
-      id: 1,
-      page: "home_two_feature_3",
-      icon: feature4Icon_1,
-      title: "Property Insurance",
-      desc: "Elit esse cillum dolo fugiat nulla tur nos ullamo.",
-   },
-   {
-      id: 2,
-      page: "home_two_feature_3",
-      icon: feature4Icon_2,
-      title: "Easy Payments",
-      desc: "quis nostrud exerct ullamo sucirity finibus ne derived.",
-   },
-   {
-      id: 3,
-      page: "home_two_feature_3",
-      icon: feature4Icon_3,
-      title: "Quick Process",
-      desc: "Duis aute irure dolor reprehe de Cicero's voluptat velit.",
-   },
+    {
+       id: 1,
+       page: "home_two_feature_3",
+       icon: feature4Icon_1,
+       title: "Үл хөдлөх хөрөнгийн даатгал",
+       desc: "Таны үл хөдлөх хөрөнгийг бүрэн даатгаж, эрсдэлээс хамгаалах найдвартай шийдэл.",
+    },
+    {
+       id: 2,
+       page: "home_two_feature_3",
+       icon: feature4Icon_2,
+       title: "Хялбар төлбөр",
+       desc: "Төлбөрөө хялбар, хурдан, аюулгүй төлөх боломж.",
+    },
+    {
+       id: 3,
+       page: "home_two_feature_3",
+       icon: feature4Icon_3,
+       title: "Шуурхай үйлчилгээ",
+       desc: "Бид таны үл хөдлөх хөрөнгийн гүйлгээг хурдан шуурхай гүйцэтгэнэ.",
+    },
 
    // home_3_feature_1
 
@@ -236,7 +236,7 @@ const feature_data: DataType[] = [
       icon: feature5Icon_1,
       title: "Buy a home",
       btn: "Find Home",
-      desc: "Explore HOZN 2 million+ homes and uncover your ideal living space.",
+      desc: "Explore UA Properties 2 million+ homes and uncover your ideal living space.",
    },
    {
       id: 2,
@@ -244,7 +244,7 @@ const feature_data: DataType[] = [
       icon: feature5Icon_2,
       title: "Buy a home",
       btn: "Rent Home",
-      desc: "Discover a rental you'll love on HOZN, thanks to 35+ filters and tailored keywords.",
+      desc: "Discover a rental you'll love on UA Properties, thanks to 35+ filters and tailored keywords.",
       data_delay_time: "0.1s",
    },
    {
@@ -290,7 +290,7 @@ const feature_data: DataType[] = [
       icon: feature6Icon_1,
       title: "Buy a home",
       btn: "Find Home",
-      desc: "Explore HOZN 2 million+ homes and uncover your ideal living space.",
+      desc: "Explore UA Properties 2 million+ homes and uncover your ideal living space.",
    },
    {
       id: 2,
@@ -298,7 +298,7 @@ const feature_data: DataType[] = [
       icon: feature6Icon_2,
       title: "Rent a home",
       btn: "Rent Home",
-      desc: "Discover a rental you'll love on HOZN, thanks to 35+ filters and tailored keywords.",
+      desc: "Discover a rental you'll love on UA Properties, thanks to 35+ filters and tailored keywords.",
       data_delay_time: "0.1s",
    },
    {

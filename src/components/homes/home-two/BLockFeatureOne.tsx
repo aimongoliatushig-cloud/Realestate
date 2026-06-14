@@ -9,8 +9,8 @@ const BLockFeatureOne = () => {
                <div className="row">
                   <div className="col-xl-9 m-auto">
                      <div className="title-one text-center mb-35 lg-mb-20 wow fadeInUp">
-                        <h2 className="font-garamond">Explore City with Most Properties</h2>
-                        <p className="fs-22 mt-xs">Allows you to search for the best and latest properties & projects in different location. Search by area below to find your perfect place.</p>
+                         <h2 className="font-garamond">Хот орчмын шилдэг үл хөдлөх хөрөнгүүд</h2>
+                         <p className="fs-22 mt-xs">Танд хамгийн тохиромжтой үл хөдлөх хөрөнгийг олоход туслах хайлтын систем. Доорх бүсээр хайж, тохирох газраа олоорой.</p>
                      </div>
                   </div>
                </div>

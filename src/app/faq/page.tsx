@@ -1,8 +1,8 @@
-import Faq from "@/components/inner-pages/faq";
+﻿import Faq from "@/components/inner-pages/faq";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Faq HOZN - Real Estate React Next js",
+   title: "Faq UA Properties - Real Estate React Next js",
 };
 const index = () => {
    return (

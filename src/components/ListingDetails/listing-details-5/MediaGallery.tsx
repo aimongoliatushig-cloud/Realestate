@@ -17,7 +17,7 @@ const MediaGallery = () => {
                      }}
                   >
                      <div className="img-fancy-btn fw-500 fs-16 color-dark">
-                        Sell all 37 Photos
+                         Бүх 37 зургийг үзэх
                         {large_img.map((thumb: any, index: any) => (
                            <a key={index} className="d-block" data-fancybox="gallery9" href={`/assets/images/listing/img_large_0${thumb}.jpg`}></a>
                         ))}

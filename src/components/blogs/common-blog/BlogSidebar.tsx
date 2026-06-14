@@ -8,7 +8,7 @@ const BlogSidebar = ({style}:any) => {
          <div className={`blog-sidebar dot-bg md-mt-60 ${style?"ms-xxl-4":"ms-xxl-5"}`}>
             <div className="search-form bg-white mb-30">
                <form onSubmit={(e) => e.preventDefault()} className="position-relative">
-                  <input type="text" placeholder="Search..." />
+                  <input type="text" placeholder="Хайх..." />
                   <button><i className="fa-sharp fa-regular fa-magnifying-glass"></i></button>
                </form>
             </div>

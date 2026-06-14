@@ -22,9 +22,9 @@ const menu_data: MenuItem[] = [
 
     {
         id: 1,
-        has_dropdown: true,
-        title: "Home",
-        link: "#",
+        has_dropdown: false,
+        title: "Нүүр",
+        link: "/",
         sub_menus: [
             
         ],
@@ -33,14 +33,14 @@ const menu_data: MenuItem[] = [
     {
         id: 2,
         has_dropdown: true,
-        title: "Listing",
+        title: "Үл хөдлөх хөрөнгө",
         link: "#",
         sub_menus: [
             
-            { link: "/listing_07", title: "Grid Top Filter" },
-            { link: "/listing_05", title: "Grid Sidebar" },
-            { link: "/listing_details_06", title: "Listing Details" },
-            { link: "/listing_09", title: "Grid Banner Filter" },
+            { link: "/listing_07", title: "Худалдаа" },
+            { link: "/listing_05", title: "Түрээс" },
+            { link: "/listing_details_06", title: "Дэлгэрэнгүй" },
+            { link: "/listing_09", title: "Бүх үл хөдлөх хөрөнгө" },
             
         ],
     },
@@ -49,12 +49,12 @@ const menu_data: MenuItem[] = [
     {
         id: 3,
         has_dropdown: true,
-        title: "Pages",
+        title: "Төслүүд",
         link: "#",
         sub_menus: [
-            { link: "/about_us_02", title: "About us" },
-            { link: "/contact", title: "Contact Us" },
-            { link: "/faq", title: "FAQ's" },
+            { link: "/project_01", title: "Төслүүд" },
+            { link: "/contact", title: "Холбоо барих" },
+            { link: "/faq", title: "Түгээмэл асуултууд" },
             
         ],
     },
@@ -62,18 +62,33 @@ const menu_data: MenuItem[] = [
 
 
 
-
     {
         id: 4,
         has_dropdown: true,
-        title: "Blog",
+        title: "Мэдээ",
         link: "#",
         sub_menus: [
-            { link: "/blog_01", title: "Blog Grid" },
-            { link: "/blog_02", title: "Blog List" },
-            { link: "/blog_03", title: "Blog 2 column" },
-            { link: "/blog_details", title: "Blog Details" },
+            { link: "/blog_01", title: "Мэдээ нэг" },
+            { link: "/blog_02", title: "Мэдээ хоёр" },
+            { link: "/blog_03", title: "Мэдээ гурав" },
+            { link: "/blog_details", title: "Мэдээ дэлгэрэнгүй" },
         ],
+    },
+
+    {
+        id: 5,
+        has_dropdown: false,
+        title: "Үйлчилгээ",
+        link: "/service_01",
+        sub_menus: [],
+    },
+
+    {
+        id: 6,
+        has_dropdown: false,
+        title: "Холбоо барих",
+        link: "/contact",
+        sub_menus: [],
     },
 ];
 export default menu_data;

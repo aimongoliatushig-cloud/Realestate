@@ -22,23 +22,23 @@ interface DataType {
 const feedback_data: DataType[] = [
    {
       id: 1,
-      desc: (<>&quot;Excellent service, made my dream home real. <span>highly recommended</span> real estate agency!&quot;</>),
-      title: "Musa Delimuza",
-      country: "Milan, Italy",
+      desc: (<>&quot;Маш сайн үйлчилгээ, мөрөөдлийн гэрээ биелүүлсэн. <span>өндөр зэрэглэлийн</span> үл хөдлөх хөрөнгийн агентлаг!&quot;</>),
+      title: "Төмөрбаатар",
+      country: "Улаанбаатар, Монгол",
       thumb: feedbackThumb_1,
    },
    {
       id: 2,
-      desc: (<>&quot;Excellent service, made my dream home real. <span>highly recommended</span> real estate agency!&quot;</>),
-      title: "Zubayer Hasan",
-      country: "Milan, Italy",
+      desc: (<>&quot;Маш сайн үйлчилгээ, мөрөөдлийн гэрээ биелүүлсэн. <span>өндөр зэрэглэлийн</span> үл хөдлөх хөрөнгийн агентлаг!&quot;</>),
+      title: "Мөнхбат",
+      country: "Улаанбаатар, Монгол",
       thumb: feedbackThumb_2,
    },
    {
       id: 3,
-      desc: (<>&quot;Excellent service, made my dream home real. <span>highly recommended</span> real estate agency!&quot;</>),
-      title: "Rashed Ka",
-      country: "Milan, Italy",
+      desc: (<>&quot;Маш сайн үйлчилгээ, мөрөөдлийн гэрээ биелүүлсэн. <span>өндөр зэрэглэлийн</span> үл хөдлөх хөрөнгийн агентлаг!&quot;</>),
+      title: "Дэлгэрмаа",
+      country: "Улаанбаатар, Монгол",
       thumb: feedbackThumb_3,
    },
 ]
@@ -63,8 +63,8 @@ const FeedbackTwo = () => {
                <div className="row gx-lg-0">
                   <div className="col-lg-5 col-md-8">
                      <div className="title-one">
-                        <div className="upper-title color">CLIENT Feedback</div>
-                        <h2 className="font-garamond text-white fs-lg">Don’t Trust us, Trust Our <span className="color">Client.</span></h2>
+                        <div className="upper-title color">ҮЙЛЧЛҮҮЛЭГЧДИЙН СЭТГЭГДЭЛ</div>
+                        <h2 className="font-garamond text-white fs-lg">Бидэнд биш, харин <span className="color">үйлчлүүлэгчдэдээ</span> итгээрэй.</h2>
                      </div>
                   </div>
                   <div className="col-lg-6 ms-auto">
@@ -91,7 +91,7 @@ const FeedbackTwo = () => {
 
                         <div className="rating-box">
                            <Image src={feedbackShape_1} alt="" className="lazy-img" />
-                           <div className="rate fw-500">9.3 <br /><span>Rating</span></div>
+                           <div className="rate fw-500">9.3 <br /><span>Үнэлгээ</span></div>
                         </div>
                      </div>
                   </div>

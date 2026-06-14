@@ -7,10 +7,10 @@ const FancyBanner = () => {
             <div className="row align-items-center">
                <div className="col-lg-8 m-auto text-center">
                   <div className="title-one mb-50 lg-mb-40">
-                     <h2 className="text-white fs-lg">Apply for loan with low interest.</h2>
-                     <p className="fs-24 text-white">Apply for loan & get up to $20million with low interest</p>
+                     <h2 className="text-white fs-lg">Бага хүүтэй зээлийн нөхцөл аваарай.</h2>
+                     <p className="fs-24 text-white">Зээл авч, 20 сая ₮ хүртэлх бага хүүтэй санхүүжилт авах боломжтой.</p>
                   </div>
-                  <Link href="contact" className="btn-six">Get Started</Link>
+                  <Link href="contact" className="btn-six">Эхлэх</Link>
                </div>
             </div>
          </div>

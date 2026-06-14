@@ -12,8 +12,8 @@ interface ContentType {
 }
 
 const content_data: ContentType = {
-   title: (<>How our clients get <i>benefited</i> by us</>),
-   desc: "“Outstanding service, bought my dream home quickly!”",
+   title: (<>Үйлчлүүлэгчид маань биднээс хэрхэн <i>ашиг</i> тус хүртэж байна</>),
+   desc: "“Маш сайн үйлчилгээ, мөрөөдлийн гэрээ хурдан хугацаанд авсан!”",
    icon: ["fa-sharp fa-solid fa-star", "fa-sharp fa-solid fa-star", "fa-sharp fa-solid fa-star", "fa-sharp fa-solid fa-star", "fa-sharp fa-solid fa-star",],
 }
 const { title, desc, icon } = content_data;
@@ -32,7 +32,7 @@ const BLockFeatureTwo = () => {
                      {icon.map((icon, index) => (
                         <li key={index}><i className={icon}></i></li>
                      ))}
-                     <li><span className="color-dark fw-500">4.7</span> (18k Reviews)</li>
+                      <li><span className="color-dark fw-500">4.7</span> (18к сэтгэгдэл)</li>
                   </ul>
                </div>
 

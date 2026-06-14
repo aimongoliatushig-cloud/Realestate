@@ -1,5 +1,6 @@
+"use client";
 import BreadcrumbOne from "@/components/common/breadcrumb/BreadcrumbOne"
-import HeaderOne from "@/layouts/headers/HeaderOne"
+import HeaderTwo from "@/layouts/headers/HeaderTwo"
 import BLockFeatureOne from "./BLockFeatureOne"
 import VideoBanner from "@/components/homes/home-seven/VideoBanner"
 import BLockFeatureFive from "@/components/homes/home-one/BLockFeatureFive"
@@ -12,8 +13,8 @@ import FancyBanner from "@/components/common/FancyBanner"
 const AboutUsOne = () => {
    return (
       <>
-         <HeaderOne style={true} />
-         <BreadcrumbOne title="About Agency" sub_title="About us" style={false} />
+         <HeaderTwo style_1={false} style_2={false} />
+         <BreadcrumbOne title="Бидний тухай" sub_title="Бидний тухай" style={false} />
          <BLockFeatureOne />
          <VideoBanner />
          <BLockFeatureFive style={true} />

@@ -26,32 +26,32 @@ interface ContentType {
 }[];
 
 const content_data: ContentType = {
-   title_1: "We help you to buy your dream home.",
-   title_2: "Quick Processing.",
-   title_3: "Benefit you will get.",
-   desc_1: (<>Risk management and compliance, when approached strategically, have the potential to go beyond mitigating threats and protecting a company’s operations & reputation.They can actually generate value and create opportunities.</>),
-   desc_2: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects. We work collaboratively with organizations to identify & leverage the potential within their risk and compliance functions, enabling them to thrive in ever-changing business landscape.</>),
-   desc_3: (<>Your leading real estate advocate, transforming houses into dreams. Trust us to expertly guide you home.</>),
-   desc_4: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects.</>),
+   title_1: "Бид таны мөрөөдлийн байшинг худалдаж авахад туслах болно.",
+   title_2: "Шуурхай боловсруулалт.",
+   title_3: "Танд олгох ашиг тус.",
+   desc_1: (<>Эрсдэлийн менежмент ба дагаж мөрдөлт нь стратегийн хувьд зөв хандвал компанийн үйл ажиллагаа, нэр хүндийг хамгаалахаас гадна үнэ цэнийг бий болгож, боломжуудыг нээж чадна.</>),
+   desc_2: (<>Манай эрсдэлийн менежмент, дагаж мөрдөлтийн баг нь үйлчлүүлэгчдийг тодорхойгүй байдлыг давуу тал болгон хувиргахад тусладаг. Бид байгууллагуудтай хамтран ажиллаж, эрсдэл ба дагаж мөрдөлтийн чиг үүргийн хүрээнд боломжуудыг тодорхойлж, ашиглах боломжийг олгодог.</>),
+   desc_3: (<>Таны үл хөдлөх хөрөнгийн тэргүүлэгч зөвлөх. Бидэнтэй хамт мөрөөдлийн гэрээ олоорой.</>),
+   desc_4: (<>Манай эрсдэлийн менежмент, дагаж мөрдөлтийн баг нь үйлчлүүлэгчдийг тодорхойгүй байдлыг давуу тал болгон хувиргахад тусладаг.</>),
    service_features: [
       {
          icon: seviceDetailsIcon_1,
-         title: "Property Insurance",
-         desc: "Elit esse cillum dol fu nulla tur nos ullamo."
+         title: "Үл хөдлөх хөрөнгийн даатгал",
+         desc: "Таны үл хөдлөх хөрөнгийг бүрэн даатгаж, эрсдэлээс хамгаалах найдвартай шийдэл."
       },
       {
          icon: seviceDetailsIcon_2,
-         title: "Easy Payments",
-         desc: "quis nostr exerct ull security finibus ne derived."
+         title: "Хялбар төлбөр",
+         desc: "Төлбөрөө хялбар, хурдан, аюулгүй төлөх боломж."
       },
       {
          icon: seviceDetailsIcon_3,
-         title: "Quick Process",
-         desc: "Duis aute irure do reprehe Cicero voluptat velit."
+         title: "Шуурхай үйлчилгээ",
+         desc: "Бид таны үл хөдлөх хөрөнгийн гүйлгээг хурдан шуурхай гүйцэтгэнэ."
       },
    ],
-   service_list: ["Loan & low Interest facility", "100k+ Property Listing added & updated", "Exert Agents for any help", "Priority Access of exclusive sale",],
-   sidebar_list: ["Property & Loan", "Sell Home", "Consulting Service", "Rent Home", "Mortgage",],
+   service_list: ["Зээл, бага хүүгийн нөхцөл", "100к+ Үл хөдлөх хөрөнгийн зар нэмэгдсэн", "Мэргэжлийн зөвлөхүүд", "Онцгой худалдааны давуу эрх",],
+   sidebar_list: ["Үл хөдлөх хөрөнгө ба Зээл", "Байшингаа худалдах", "Зөвлөх үйлчилгээ", "Орон сууц түрээслэх", "Ипотекийн зээл",],
 }
 
 const { title_1, title_2, title_3, desc_1, desc_2, desc_3, desc_4, service_features, service_list, sidebar_list } = content_data;
@@ -63,7 +63,7 @@ const ServiceDetailsArea = () => {
             <div className="row">
                <div className="col-lg-8">
                   <div className="service-post">
-                     <div className="btn-line fw-500 text-uppercase">BUY PROPERTY</div>
+                     <div className="btn-line fw-500 text-uppercase">ҮЛ ХӨДЛӨХ ХӨРӨНГӨ ХУДАЛДАХ</div>
                      <h3 className="mb-30">{title_1}</h3>
                      <p className="fs-20 lh-lg pb-25">{desc_1}</p>
                      <p className="fs-20 lh-lg">{desc_2}</p>
@@ -101,7 +101,7 @@ const ServiceDetailsArea = () => {
                      <ul className="list-style-one fs-22 color-dark style-none">
                         {service_list.map((list, i) => <li key={i}>{list}</li>)}
                      </ul>
-                     <Link href="/contact" className="btn-two mt-30">Contact Us</Link>
+                     <Link href="/contact" className="btn-two mt-30">Холбоо барих</Link>
                   </div>
                </div>
                
@@ -110,13 +110,13 @@ const ServiceDetailsArea = () => {
                      <div className="service-sidebar md-mt-80">
                         <div className="service-category">
                            <ul className="style-none">
-                              <li><Link href="#" className="active">Buy Home</Link></li>
+                              <li><Link href="#" className="active">Орон сууц худалдаж авах</Link></li>
                               {sidebar_list.map((list, i) => <li key={i}><Link href="#">{list}</Link></li>)}
                            </ul>
                         </div>
                         <div className="contact-banner text-center mt-45">
-                           <h4 className="mb-35 text-white">Any Questions? <br />Let’s talk</h4>
-                           <Link href="/contact" className="btn-two">Let’s Talk</Link>
+                           <h4 className="mb-35 text-white">Асуулт байна уу? <br />Ярилцая</h4>
+                           <Link href="/contact" className="btn-two">Ярилцах</Link>
                         </div>
                      </div>
                   </div>

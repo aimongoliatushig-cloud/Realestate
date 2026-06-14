@@ -9,7 +9,7 @@ const ProjectOne = () => {
    return (
       <>
          <HeaderOne style={true} />
-         <BreadcrumbOne title="Our Projects" link="#" link_title="Pages" sub_title="Project" style={true} />
+         <BreadcrumbOne title="Манай Төслүүд" link="#" link_title="Хуудсууд" sub_title="Төсөл" style={true} />
          <ProjectArea />
          <FancyBanner />
          <FancyBannerCommon />

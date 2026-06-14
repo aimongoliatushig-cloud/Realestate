@@ -1,8 +1,8 @@
-import DashboardAddProperty from "@/components/dashboard/add-property";
+﻿import DashboardAddProperty from "@/components/dashboard/add-property";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Dashboard Add Property HOZN - Real Estate React Next js",
+   title: "Dashboard Add Property UA Properties - Real Estate React Next js",
 };
 const index = () => {
    return (

@@ -11,8 +11,8 @@ const Blog = ({ style }: any) => {
             <div className="position-relative">
                <div className="title-one mb-35 xl-mb-20 md-mb-10 wow fadeInUp">
                   {style ? <h3>Latest <span>News <Image src={titleShape} alt="" className="lazy-img" /></span></h3> :
-                     <h2 className="font-garamond">Latest News</h2>}
-                  <p className="fs-20 mt-xs">Get the latest update, trips & tricks from our expert.</p>
+                      <h2 className="font-garamond">Сүүлийн мэдээ</h2>}
+                   <p className="fs-20 mt-xs">Манай мэргэжилтнүүдээс хамгийн сүүлийн үеийн мэдээ, зөвлөгөөг аваарай.</p>
                </div>
 
                <div className="row gx-xl-5">
@@ -38,7 +38,7 @@ const Blog = ({ style }: any) => {
                </div>
 
                <div className="section-btn text-center md-mt-60">
-                  <Link href="/blog_03" className="btn-eight"><span>Explore All</span> <i className="bi bi-arrow-up-right"></i></Link>
+                   <Link href="/blog_03" className="btn-eight"><span>Бүгдийг үзэх</span> <i className="bi bi-arrow-up-right"></i></Link>
                </div>
             </div>
          </div>

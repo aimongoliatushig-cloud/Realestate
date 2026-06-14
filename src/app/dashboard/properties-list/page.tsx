@@ -1,8 +1,8 @@
-import PropertyList from "@/components/dashboard/properties-list";
+﻿import PropertyList from "@/components/dashboard/properties-list";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Dashboard Property List HOZN - Real Estate React Next js",
+   title: "Dashboard Property List UA Properties - Real Estate React Next js",
 };
 const index = () => {
    return (

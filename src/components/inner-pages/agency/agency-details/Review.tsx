@@ -31,16 +31,16 @@ const review_data: DataType[] = [
       img: agencyDetailsImg_1,
       title: "Zubayer Al Hasan",
       date: "17 Aug, 23",
-      total_rating: "(4.7 Rating)",
+      total_rating: "(4.7 Үнэлгээ)",
       rating: ["star", "star", "star", "star", "star"],
       desc: (<>Lorem ipsum dolor sit amet consectetur. Pellentesque sed nulla facili diam posuere aliquam suscipit quam.</>),
    },
    {
       id: 2,
       img: agencyDetailsImg_3,
-      title: "Rashed Kabir",
+      title: "Рашид Кабир",
       date: "13 Aug, 23",
-      total_rating: "(4.9 Rating)",
+      total_rating: "(4.9 Үнэлгээ)",
       rating: ["star", "star", "star", "star", "star"],
       img_slider: [{ img_id: "4", img: agencyDetailsImg_4 }, { img_id: "5", img: agencyDetailsImg_5 }, { img_id: "6", img: agencyDetailsImg_6 },],
       desc: (<>Lorem ipsum dolor sit amet consectetur. Pellentesque sed nulla facili diam posuere aliquam suscipit quam.</>),
@@ -50,7 +50,7 @@ const review_data: DataType[] = [
       img: agencyDetailsImg_2,
       title: "17 Aug, 23",
       date: "17 Aug, 23",
-      total_rating: "(4.7 Rating)",
+      total_rating: "(4.7 Үнэлгээ)",
       rating: ["star", "star", "star", "star", "star"],
       desc: (<>Lorem ipsum dolor sit amet consectetur. Pellentesque sed nulla facili diam posuere aliquam suscipit quam.</>),
    },
@@ -111,10 +111,10 @@ const Review = ({ style }: any) => {
                      </Fancybox>
                      <div className="d-flex review-help-btn">
                         <Link href="#" className="me-5"><i className="fa-sharp fa-regular fa-thumbs-up"></i>
-                           <span>Helpful</span>
-                        </Link>
-                        <Link href="#"><i className="fa-sharp fa-regular fa-flag-swallowtail"></i>
-                           <span>Flag</span>
+                            <span>Тус болсон</span>
+                         </Link>
+                         <Link href="#"><i className="fa-sharp fa-regular fa-flag-swallowtail"></i>
+                            <span>Тэмдэглэх</span>
                         </Link>
                      </div>
                   </div>
@@ -126,7 +126,7 @@ const Review = ({ style }: any) => {
             className={`load-more-review text-uppercase w-100 tran3s ${style ? "border-15 tran3s" : "fw-500 inverse rounded-0"}`}
             onClick={() => setShowAllReviews(!showAllReviews)}
          >
-            {showAllReviews ? 'SHOW LESS' : 'VIEW ALL REVIEWS'}{' '}
+            {showAllReviews ? 'БАГААРХЫ' : 'БҮХ СЭТГЭГДЛИЙГ ХАРАХ'}{' '}
             <i className={`bi bi-arrow-${showAllReviews ? 'down' : 'up'}-right`}></i>
          </div>
       </>

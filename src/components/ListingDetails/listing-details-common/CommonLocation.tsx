@@ -2,7 +2,7 @@
 const CommonLocation = () => {
    return (
       <>
-         <h4 className="mb-40">Location</h4>
+         <h4 className="mb-40">Байршил</h4>
          <div className="bg-white shadow4 border-20 p-30">
             <div className="map-banner overflow-hidden border-15">
                <div className="gmap_canvas h-100 w-100">

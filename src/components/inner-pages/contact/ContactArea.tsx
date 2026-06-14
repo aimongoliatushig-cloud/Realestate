@@ -1,4 +1,4 @@
-import Link from "next/link"
+﻿import Link from "next/link"
 import Image from "next/image"
 
 import circleImg from "@/assets/images/icon/icon_39.svg"
@@ -15,20 +15,19 @@ interface DataType {
 const address_data: DataType[] = [
    {
       id: 1,
-      title: "We’r always happy to help.",
-      address_1: "ask@gmail.com"
+      title: "Бид танд туслахад үргэлж бэлэн.",
+      address_1: "info@ua-properties.mn"
    },
    {
       id: 2,
       class_name: "skew-line",
-      title: "Our hotline number",
-      address_1: "+210 0000 0000,",
-      address_2: "+210 0000 0000",
+      title: "Манай утасны дугаар",
+      address_1: "+7717 1111",
    },
    {
       id: 3,
-      title: "Live chat",
-      address_1: "www.HOZN.com"
+      title: "Шуурхай чат",
+      address_1: "www.ua-properties.mn"
    },
 ]
 
@@ -39,7 +38,7 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-xxl-9 col-xl-8 col-lg-10 m-auto">
                   <div className="title-one text-center wow fadeInUp">
-                     <h3>Questions? Feel Free to Reach Out Via Message.</h3>
+                     <h3>Асуулт байна уу? Бидэнтэй холбоо бариарай.</h3>
                   </div>
                </div>
             </div>

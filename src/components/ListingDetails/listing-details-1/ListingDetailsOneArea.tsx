@@ -25,19 +25,19 @@ const ListingDetailsOneArea = () => {
             <CommonBanner />
             <MediaGallery />
             <div className="property-feature-list bg-white shadow4 border-20 p-40 mt-50 mb-60">
-               <h4 className="sub-title-one mb-40 lg-mb-20">Property Overview</h4>
+               <h4 className="sub-title-one mb-40 lg-mb-20">Үл хөдлөх хөрөнгийн тойм</h4>
                <CommonPropertyOverview />
             </div>
             <div className="row">
                <div className="col-xl-8">
                   <div className="property-overview mb-50 bg-white shadow4 border-20 p-40">
-                     <h4 className="mb-20">Overview</h4>
+                      <h4 className="mb-20">Тойм</h4>
                      <p className="fs-20 lh-lg">Lorem ipsum dolor sit amet consectetur. Et velit varius ipsum tempor vel
                         dignissim tincidunt. Aliquam accumsan laoreet ultricies tincidunt faucibus fames augue in
                         sociis. Nisl enim integer neque nec.</p>
                   </div>
                   <div className="property-feature-accordion bg-white shadow4 border-20 p-40 mb-50">
-                     <h4 className="mb-20">Property Features</h4>
+                      <h4 className="mb-20">Үл хөдлөх хөрөнгийн онцлогууд</h4>
                      <p className="fs-20 lh-lg">Risk management and compliance, when approached strategically, have the potential to go beyond mitigating threats.</p>
                      <div className="accordion-style-two mt-45">
                         <CommonPropertyFeatureList />
@@ -64,12 +64,12 @@ const ListingDetailsOneArea = () => {
                   <div className="review-panel-one bg-white shadow4 border-20 p-40 mb-50">
                      <div className="position-relative z-1">
                         <div className="d-sm-flex justify-content-between align-items-center mb-10">
-                           <h4 className="m0 xs-pb-30">Reviews</h4>
+                            <h4 className="m0 xs-pb-30">Сэтгэгдэл</h4>
                            <NiceSelect className="nice-select"
                               options={[
-                                 { value: "01", text: "Newest" },
-                                 { value: "02", text: "Best Seller" },
-                                 { value: "03", text: "Best Match" },
+                                  { value: "01", text: "Шинэ" },
+                                  { value: "02", text: "Шилдэг" },
+                                  { value: "03", text: "Тохирох" },
                               ]}
                               defaultCurrent={0}
                               onChange={selectHandler}

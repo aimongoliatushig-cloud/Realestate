@@ -4,25 +4,25 @@ interface DataType {
 }[];
 
 const list_data: DataType[] = [
-   { title: "School & Collage:", count: "0.9km", },
-   { title: "Grocery Center:", count: "0.2km", },
-   { title: "Metro Station:", count: "0.7km", },
-   { title: "Gym:", count: "2.3km", },
-   { title: "University:", count: "2.7km", },
-   { title: "Hospital:", count: "1.7km", },
-   { title: "Shopping Mall:", count: "1.1km", },
-   { title: "Police Station:", count: "1.2km", },
-   { title: "Bus Station:", count: "1.1km", },
-   { title: "River:", count: "3.1km", },
-   { title: "Market:", count: "3.4km", },
+   { title: "Сургууль & Коллеж:", count: "0.9км", },
+   { title: "Хүнсний дэлгүүр:", count: "0.2км", },
+   { title: "Метро буудал:", count: "0.7км", },
+   { title: "Фитнесс:", count: "2.3км", },
+   { title: "Их сургууль:", count: "2.7км", },
+   { title: "Эмнэлэг:", count: "1.7км", },
+   { title: "Худалдааны төв:", count: "1.1км", },
+   { title: "Цагдаагийн хэлтэс:", count: "1.2км", },
+   { title: "Автобусны буудал:", count: "1.1км", },
+   { title: "Гол:", count: "3.1км", },
+   { title: "Зах:", count: "3.4км", },
 ];
 
 const CommonNearbyList = () => {
    return (
       <>
-         <h4 className="mb-20">What’s Nearby</h4>
-         <p className="fs-20 lh-lg pb-30">Risk management and compliance, when approached strategically, have th
-            potential to go beyond mitigating threats.</p>
+         <h4 className="mb-20">Ойролцоо байршил</h4>
+         <p className="fs-20 lh-lg pb-30">Эрсдэлийн менежмент ба дагаж мөрдөлт нь стратегийн хувьд зөв хандвал
+            аюул заналыг бууруулахаас давсан үр дүнг өгч чадна.</p>
          <ul className="style-none d-flex flex-wrap justify-content-between nearby-list-item">
             {list_data.map((list, i) => (
                <li key={i}>{list.title}<span className="fw-500 color-dark">{list.count}</span></li>

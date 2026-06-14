@@ -1,8 +1,8 @@
-import ListingThirteen from "@/components/inner-listing/listing-13";
+﻿import ListingThirteen from "@/components/inner-listing/listing-13";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Listing Thirteen HOZN - Real Estate React Next js ",
+   title: "Listing Thirteen UA Properties - Real Estate React Next js ",
 };
 const index = () => {
    return (

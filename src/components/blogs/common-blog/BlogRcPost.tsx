@@ -16,27 +16,27 @@ const rc_data: DataType[] = [
    {
       id: 1,
       img: rcPostImg_1,
-      title: "10 days quick challenge for boost visitors.",
-      date: "23 July, 2022",
+      title: "Зочид өөрсдийгөө өсгөх 10 өдрийн сорилт.",
+      date: "2022 оны 7-р сарын 23",
    },
    {
       id: 2,
       img: rcPostImg_2,
-      title: "Speaking remotely at WordCamp US.",
-      date: "23 July, 2022",
+      title: "WordCamp US-д зайнаас оролцох нь.",
+      date: "2022 оны 7-р сарын 23",
    },
    {
       id: 3,
       img: rcPostImg_3,
-      title: "Monthly Roundup event December 2022.",
-      date: "23 July, 2022",
+      title: "2022 оны 12-р сарын сар тутмын тойм.",
+      date: "2022 оны 7-р сарын 23",
    },
 ]
 
 const BlogRcPost = () => {
    return (
       <div className="recent-news bg-white bg-wrapper mb-30">
-         <h5 className="mb-20">Recent News</h5>
+         <h5 className="mb-20">Сүүлийн мэдээнүүд</h5>
          {rc_data.map((item) => (
             <div key={item.id} className="news-block d-flex align-items-center pb-25">
                <div><Image src={item.img} alt="" className="lazy-img" /></div>

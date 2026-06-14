@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 import Image from "next/image"
 import Link from "next/link";
 
-import footerLogo_1 from "@/assets/images/logo/logo_05.svg"
+import footerLogo_1 from "@/assets/images/logo/logoua.png"
 import footerShape_1 from "@/assets/images/shape/shape_46.svg"
 import footerShape_2 from "@/assets/images/shape/shape_47.svg"
 import footerIcon_1 from "@/assets/images/icon/icon_30.svg"
@@ -113,7 +113,7 @@ const FooterTwo = () => {
                      <li><Link href="/faq">Cookies</Link></li>
                      <li><Link href="/contact">Contact Us</Link></li>
                   </ul>
-                  <p className="mb-15 text-center text-lg-start order-md-first">Copyright @2025 HOZN.</p>
+                  <p className="mb-15 text-center text-lg-start order-md-first">Бүх эрх хамгаалагдсан. © 2025 UA Properties.</p>
                </div>
             </div>
          </div>

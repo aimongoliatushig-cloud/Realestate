@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 import NavMenu from "./Menu/NavMenu"
 import Link from "next/link"
 import Image from "next/image"
@@ -7,7 +7,7 @@ import UseSticky from "@/hooks/UseSticky"
 import LoginModal from "@/modals/LoginModal"
 import Offcanvas from "./Menu/Offcanvas"
 
-import logo_1 from "@/assets/images/logo/logo_06.svg";
+import logo_1 from "@/assets/images/logo/logoua.png";
 
 const HeaderThree = () => {
    const { sticky } = UseSticky();
@@ -38,7 +38,7 @@ const HeaderThree = () => {
                      </div>
 
                      <div className="order-lg-2 d-none d-xxl-block">
-                        <p className="m0 email-text ps-5 pe-5">Our Email <Link href="#" className="tran3s fw-500 ms-2">HOZN@gmail.com</Link></p>
+                        <p className="m0 email-text ps-5 pe-5">Our Email <Link href="#" className="tran3s fw-500 ms-2">info@ua-properties.mn</Link></p>
                      </div>
 
                      <nav className="navbar navbar-expand-lg p0 ms-lg-5 order-lg-3">

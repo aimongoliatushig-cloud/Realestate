@@ -31,15 +31,12 @@ const ListingDetailsSixArea = () => {
                <div className="row pt-80 lg-pt-50">
                   <div className="col-xl-8">
                      <div className="property-overview bottom-line-dark pb-40 mb-60">
-                        <h4 className="mb-20">Overview</h4>
-                        <p className="fs-20 lh-lg">Risk management and compliance, when approached strategically, have the
-                           potential to go beyond mitigating threats and protecting a company’s operations &
-                           reputation.They can actually generate value and create opportunities. </p>
+                        <h4 className="mb-20">Тойм</h4>
+                        <p className="fs-20 lh-lg">Эрсдэлийн менежмент ба дагаж мөрдөлт нь стратегийн хувьд зөв хандвал боломжуудыг нээж чадна.</p>
                      </div>
                      <div className="property-feature-accordion bottom-line-dark pb-40 mb-60">
-                        <h4 className="mb-20">Property Features</h4>
-                        <p className="fs-20 lh-lg">Risk management and compliance, when approached strategically, have the
-                           potential to go beyond mitigating threats.</p>
+                         <h4 className="mb-20">Үл хөдлөх хөрөнгийн онцлогууд</h4>
+                         <p className="fs-20 lh-lg">Эрсдэлийн менежмент ба дагаж мөрдөлт нь стратегийн хувьд зөв хандвал боломжуудыг нээж чадна.</p>
 
                         <div className="accordion-style-two grey-bg mt-45">
                            <CommonPropertyFeatureList />
@@ -61,7 +58,7 @@ const ListingDetailsSixArea = () => {
                      </div>
 
                      <div className="property-location bottom-line-dark pb-60 mb-60">
-                        <h4 className="mb-40">Location</h4>
+                        <h4 className="mb-40">Байршил</h4>
                         <div className="wrapper">
                            <div className="map-banner overflow-hidden">
                               <div className="gmap_canvas h-100 w-100">
@@ -78,12 +75,12 @@ const ListingDetailsSixArea = () => {
                      <div className="review-panel-one bottom-line-dark pb-40 mb-60">
                         <div className="position-relative z-1">
                            <div className="d-sm-flex justify-content-between align-items-center mb-10">
-                              <h4 className="m0 xs-pb-30">Reviews</h4>
+                               <h4 className="m0 xs-pb-30">Сэтгэгдэл</h4>
                               <NiceSelect className="nice-select rounded-0"
                                  options={[
-                                    { value: "01", text: "Newest" },
-                                    { value: "02", text: "Best Seller" },
-                                    { value: "03", text: "Best Match" },
+                                  { value: "01", text: "Шинэ" },
+                                  { value: "02", text: "Шилдэг" },
+                                  { value: "03", text: "Тохирох" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}
@@ -95,11 +92,11 @@ const ListingDetailsSixArea = () => {
                      </div>
                      
                      <div className="review-form">
-                        <h4 className="mb-20">Leave A Reply</h4>
+                        <h4 className="mb-20">Сэтгэгдэл үлдээх</h4>
                         <p className="fs-20 lh-lg pb-15">
                            <a onClick={() => setLoginModal(true)} style={{ cursor: "pointer" }}
-                              className="color-dark fw-500 text-decoration-underline">Sign in</a>
-                           to post your comment or signup if you don&apos;t have any account.</p>
+                              className="color-dark fw-500 text-decoration-underline">Нэвтрэх</a>
+                           эсвэл бүртгүүлж сэтгэгдэл үлдээнэ үү.</p>
 
                         <div className="bg-dot p-30">
                            <AgencyFormOne />

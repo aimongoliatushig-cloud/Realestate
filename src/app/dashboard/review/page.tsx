@@ -1,8 +1,8 @@
-import DashboardReview from "@/components/dashboard/review";
+﻿import DashboardReview from "@/components/dashboard/review";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Dashboard Review HOZN - Real Estate React Next js",
+   title: "Dashboard Review UA Properties - Real Estate React Next js",
 };
 const index = () => {
    return (

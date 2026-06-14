@@ -5,7 +5,7 @@ const Location = () => {
       <div className="accordion-item">
          <h2 className="accordion-header">
             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTenA" aria-expanded="true" aria-controls="collapseTenA">
-               Location
+                Байршил
             </button>
          </h2>
          <div id="collapseTenA" className="accordion-collapse collapse">

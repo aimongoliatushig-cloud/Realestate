@@ -1,11 +1,11 @@
-"use client";
+﻿"use client";
 import menu_data from "@/data/home-data/MenuData";
 import Link from "next/link.js";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";
 
-import logo from "@/assets/images/logo/logo_01.svg";
+import logo from "@/assets/images/logo/logoua.png";
 
 const NavMenu = () => {
     const pathname = usePathname();
@@ -27,11 +27,6 @@ const NavMenu = () => {
                         <Image src={logo} alt="" />
                     </Link>
                 </div>
-            </li>
-            <li className="nav-item dashboard-menu">
-                <Link className="nav-link" href="/dashboard/dashboard-index" target="_blank">
-                    Dashboard
-                </Link>
             </li>
             {menu_data.map((menu: any) => (
                 <li

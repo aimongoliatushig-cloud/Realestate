@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 import NavMenu from "./Menu/NavMenu"
 import Link from "next/link"
 import Image from "next/image"
@@ -6,7 +6,7 @@ import { useState } from "react"
 import UseSticky from "@/hooks/UseSticky"
 import LoginModal from "@/modals/LoginModal"
 
-import logo_1 from "@/assets/images/logo/logo_01.svg";
+import logo_1 from "@/assets/images/logo/logoua.png";
 
 const HeaderOne = ({ style }: any) => {
    const { sticky } = UseSticky();
@@ -15,7 +15,7 @@ const HeaderOne = ({ style }: any) => {
       <>
          <header className={`theme-main-menu menu-overlay menu-style-one sticky-menu ${sticky ? "fixed" : ""}`}>
             {!style && <div className="alert-wrapper text-center">
-               <p className="fs-16 m0 text-white">The <Link href="/listing_01" className="fw-500">flash sale</Link> go on. The offer will end in — <span>This Sunday</span></p>
+                <p className="fs-16 m0 text-white"><Link href="/listing_01" className="fw-500">Урамшууллын</Link> хугацаа үргэлжилж байна. Дуусах хугацаа — <span>Энэ Ням гараг</span></p>
             </div>}
             <div className="inner-content gap-one">
                <div className="top-header position-relative">
@@ -28,10 +28,10 @@ const HeaderOne = ({ style }: any) => {
                      <div className="right-widget ms-auto ms-lg-0 me-3 me-lg-0 order-lg-3">
                         <ul className="d-flex align-items-center style-none">
                            <li>
-                              <Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="btn-one"><i className="fa-regular fa-lock"></i> <span>Login</span></Link>
+                               <Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="btn-one"><i className="fa-regular fa-lock"></i> <span>Нэвтрэх</span></Link>
                            </li>
                            <li className="d-none d-md-inline-block ms-3">
-                              <Link href="/dashboard/add-property" className="btn-two" target="_blank"><span>Add Listing</span> <i className="fa-thin fa-arrow-up-right"></i></Link>
+                               <Link href="/dashboard/add-property" className="btn-two" target="_blank"><span>Зар нэмэх</span> <i className="fa-thin fa-arrow-up-right"></i></Link>
                            </li>
                         </ul>
                      </div>

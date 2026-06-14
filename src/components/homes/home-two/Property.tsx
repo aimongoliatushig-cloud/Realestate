@@ -11,8 +11,8 @@ const Property = () => {
          <div className="container">
             <div className="position-relative">
                <div className="title-one mb-25 lg-mb-20 wow fadeInUp">
-                  <h2 className="font-garamond">New Listings</h2>
-                  <p className="fs-22 mt-xs">Explore latest & featured properties for sale.</p>
+                   <h2 className="font-garamond">Шинэ зар</h2>
+                   <p className="fs-22 mt-xs">Хамгийн сүүлийн үеийн онцгой үл хөдлөх хөрөнгүүдтэй танилцана уу.</p>
                </div>
 
                <div className="row gx-xxl-5">
@@ -60,7 +60,7 @@ const Property = () => {
                </div>
 
                <div className="section-btn text-center md-mt-60">
-                  <Link href="/listing_05" className="btn-eight"><span>Explore All</span> <i
+                   <Link href="/listing_05" className="btn-eight"><span>Бүгдийг үзэх</span> <i
                      className="bi bi-arrow-up-right"></i></Link>
                </div>
             </div>

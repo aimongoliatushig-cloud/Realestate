@@ -43,8 +43,8 @@ const AgentArea = ({ style }: any) => {
          <div className={`container ${style ? "container-large" : ""}`}>
             <div className="position-relative">
                <div className="title-one mb-85 lg-mb-50 wow fadeInLeft">
-                  <h3>Our <span>Agents{style?"":<Image src={titleShape} alt="" className="lazy-img" />}</span></h3>
-                  <p className="fs-22 mt-xs">Lorem  is placeholder text commonly used  graphic </p>
+                   <h3>Манай <span>агентууд{style?"":<Image src={titleShape} alt="" className="lazy-img" />}</span></h3>
+                   <p className="fs-22 mt-xs">Мэргэжлийн баг танд үйлчлэхэд бэлэн</p>
                </div>
 
                <div className="wrapper position-relative z-1">
@@ -66,7 +66,7 @@ const AgentArea = ({ style }: any) => {
                </div>
 
                <div className="section-btn text-center md-mt-60">
-                  <Link href="agent" className={` ${style ? "btn-eight" : "btn-one fw-normal"}`}>Meet Entire Team</Link>
+                   <Link href="agent" className={` ${style ? "btn-eight" : "btn-one fw-normal"}`}>Бүх багтай танилцах</Link>
                </div>
             </div>
          </div>

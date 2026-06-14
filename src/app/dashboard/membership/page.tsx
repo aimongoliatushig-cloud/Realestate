@@ -1,8 +1,8 @@
-import DashboardMembership from "@/components/dashboard/membership";
+﻿import DashboardMembership from "@/components/dashboard/membership";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Dashboard Membership HOZN - Real Estate React Next js",
+   title: "Dashboard Membership UA Properties - Real Estate React Next js",
 };
 const index = () => {
    return (

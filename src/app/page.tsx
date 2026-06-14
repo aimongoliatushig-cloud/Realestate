@@ -1,8 +1,8 @@
-
+﻿
 import Wrapper from "@/layouts/Wrapper";
 import HomeTwo from "@/components/homes/home-two";
 export const metadata = {
-  title: "HOZN - Real Estate React Next js",
+  title: "UA Properties - Real Estate React Next js",
 };
 const index = () => {
   return (

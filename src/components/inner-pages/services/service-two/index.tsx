@@ -12,7 +12,7 @@ const ServiceTwo = () => {
    return (
       <>
          <HeaderFour />
-         <BreadcrumbThree title="Our Services" link="#" link_title="Pages" sub_title="Services" style={false} />
+         <BreadcrumbThree title="Үйлчилгээнүүд" link="#" link_title="Хуудсууд" sub_title="Үйлчилгээ" style={false} />
          <BLockFeatureOne />
          <Brand />
          <BLockFeatureThree />

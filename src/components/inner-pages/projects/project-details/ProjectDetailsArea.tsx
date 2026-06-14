@@ -24,28 +24,28 @@ interface ContentType {
 }
 
 const content_data: ContentType = {
-   title_1: "Apartments on Vintage City.",
-   title_2: "Project Details",
-   desc_1: "Your leading real estate advocate, transforming houses into dreams. Trust",
-   desc_2: "Your leading real estate advocate, transforming houses into dreams. Trust us to expertly guide you home.  745,000 apartments & home for sell, rent & mortgage.",
+   title_1: "Vintage City дахь орон сууц.",
+   title_2: "Төслийн дэлгэрэнгүй",
+   desc_1: "Таны үл хөдлөх хөрөнгийн тэргүүлэгч зөвлөх. Бидэнтэй хамт мөрөөдлийн гэрээ олоорой.",
+   desc_2: "Таны үл хөдлөх хөрөнгийн тэргүүлэгч зөвлөх. Бидэнтэй хамт мөрөөдлийн гэрээ олоорой. 745,000 гаруй орон сууц, байшинг худалдаа, түрээсийн зориулалтаар санал болгож байна.",
    project_details: [
       {
          count: "01",
          icon: projectDetailsIcon_1,
-         title: "Date",
-         desc: "Sunday, 23 July, 2021",
+         title: "Огноо",
+         desc: "Ням, 2021 оны 7-р сарын 23",
       },
       {
          count: "02",
          icon: projectDetailsIcon_2,
-         title: "Client Name",
-         desc: "Mariona Adisson, California",
+         title: "Үйлчлүүлэгчийн нэр",
+         desc: "Мариона Адиссон, Калифорниа",
       },
       {
          count: "03",
          icon: projectDetailsIcon_3,
-         title: "Project Type",
-         desc: "Business Consulting",
+         title: "Төслийн төрөл",
+         desc: "Бизнес зөвлөгөө",
       },
    ]
 }
@@ -71,7 +71,7 @@ const ProjectDetailsArea = () => {
 
                <div className="col-lg-6">
                   <div className="details-text ps-xxl-5 md-mt-40">
-                     <div className="tag fw-500 text-uppercase">Apartments</div>
+                     <div className="tag fw-500 text-uppercase">Орон сууц</div>
                      <h3>{title_1}</h3>
                      <p className="fs-24 pt-45 xl-pt-30 pb-45 xl-pb-30">{desc_1}</p>
                      <h4 className="mb-40">{title_2}</h4>
@@ -92,7 +92,7 @@ const ProjectDetailsArea = () => {
                      
                      <p className="fs-20 pt-50 pb-35">{desc_2}</p>
                      <ul className="style-none d-flex align-items-center social-icon">
-                        <li>Share :</li>
+                        <li>Хуваалцах :</li>
                         <li><Link href="#"><i className="fa-brands fa-facebook-f"></i></Link></li>
                         <li><Link href="#"><i className="bi bi-twitter-x"></i></Link></li>
                         <li><Link href="#"><i className="bi bi-instagram"></i></Link></li>
@@ -101,13 +101,21 @@ const ProjectDetailsArea = () => {
                      <div className="page-pagination mt-45 pt-50">
                         <div className="d-flex align-items-center justify-content-between">
                            <div className="d-flex align-items-center page-title position-relative">
-                              <Image src={projectDetailsThumb_4} alt="" className="lazy-img img" />
+                              <Link href="#"><i className="fa-light fa-arrow-left"></i></Link>
                               <div className="ps-4">
-                                 <span>Next PROJECT</span>
-                                 <h5 className="m0">1,320 sqft Modern Flat</h5>
+                                 <span className="fs-16 opacity-50 d-block">Өмнөх</span>
+                                 <strong className="fs-22 d-block">Galaxy Touch Sky</strong>
                               </div>
                            </div>
-                           <Link href="#" className="btn-four rounded-circle inverse"><i className="bi bi-arrow-right"></i></Link>
+                           <div className="d-flex align-items-center page-title justify-content-end text-end position-relative">
+                              <div>
+                                 <span className="fs-16 opacity-50 d-block">Дараах</span>
+                                 <strong className="fs-22 d-block">Swimming Pool Villa</strong>
+                              </div>
+                              <div className="ps-4">
+                                 <Link href="#"><i className="fa-light fa-arrow-right"></i></Link>
+                              </div>
+                           </div>
                         </div>
                      </div>
                   </div>

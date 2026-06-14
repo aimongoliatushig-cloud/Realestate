@@ -1,8 +1,8 @@
-import DashboardMessage from "@/components/dashboard/message";
+﻿import DashboardMessage from "@/components/dashboard/message";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Dashboard Message HOZN - Real Estate React Next js",
+   title: "Dashboard Message UA Properties - Real Estate React Next js",
 };
 const index = () => {
    return (

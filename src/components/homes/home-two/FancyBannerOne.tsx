@@ -15,14 +15,14 @@ const FancyBannerOne = () => {
                   <div className="col-xl-8 col-lg-9 ms-auto wow fadeInRight">
                      <div className="ps-xxl-5">
                         <div className="title-one mb-50 lg-mb-30">
-                           <h2 className="font-garamond fs-xl">Best homes, perfect Match for you.</h2>
+                            <h2 className="font-garamond fs-xl">Хамгийн шилдэг байрууд, танд зориулав.</h2>
                         </div>
                         <div className="row">
                            <div className="col-lg-4">
                               <Image src={fancyImg_1} alt="" className="lazy-img ms-auto d-none d-lg-block me-auto mt-20" />
                            </div>
                            <div className="col-lg-8">
-                              <p className="fs-24 color-dark">We’ve more than 745,000 apartments & home for sell, rent & mortgage.</p>
+                              <p className="fs-24 color-dark">Бид 745,000 гаруй орон сууц, байшинг худалдаа, түрээс, барьцааны зориулалтаар санал болгож байна.</p>
                               <div className="accordion accordion-style-one mt-60" id="accordionOne">
                                  <FaqOne />
                               </div>

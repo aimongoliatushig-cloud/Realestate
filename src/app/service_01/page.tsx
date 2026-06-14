@@ -1,8 +1,8 @@
-import ServiceOne from "@/components/inner-pages/services/service-one";
+﻿import ServiceOne from "@/components/inner-pages/services/service-one";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Service One HOZN - Real Estate React Next js ",
+   title: "Service One UA Properties - Real Estate React Next js ",
 };
 const index = () => {
    return (

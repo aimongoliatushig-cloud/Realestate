@@ -34,13 +34,13 @@ const ListingDetailsFourArea = () => {
                <div className="row">
                   <div className="col-xl-8">
 						<div className="property-overview bottom-line-dark pb-40 mb-60">
-							<h4 className="mb-20">Overview</h4>
+							<h4 className="mb-20">Тойм</h4>
 							<p className="fs-20 lh-lg">Risk management and compliance, when approached strategically, have the
 								potential to go beyond mitigating threats and protecting a company’s operations &
 								reputation.They can actually generate value and create opportunities. </p>
 						</div>
 						<div className="property-feature-accordion bottom-line-dark pb-40 mb-60">
-							<h4 className="mb-20">Property Features</h4>
+							<h4 className="mb-20">Үл хөдлөх хөрөнгийн онцлогууд</h4>
 							<p className="fs-20 lh-lg">Risk management and compliance, when approached strategically, have the
 								potential to go beyond mitigating threats.</p>
 
@@ -68,12 +68,12 @@ const ListingDetailsFourArea = () => {
                      <div className="review-panel-one bottom-line-dark pb-40 mb-60">
                         <div className="position-relative z-1">
                            <div className="d-sm-flex justify-content-between align-items-center mb-10">
-                              <h4 className="m0 xs-pb-30">Reviews</h4>
+                               <h4 className="m0 xs-pb-30">Сэтгэгдэл</h4>
                               <NiceSelect className="nice-select rounded-0"
                                  options={[
-                                    { value: "01", text: "Newest" },
-                                    { value: "02", text: "Best Seller" },
-                                    { value: "03", text: "Best Match" },
+                                  { value: "01", text: "Шинэ" },
+                                  { value: "02", text: "Шилдэг" },
+                                  { value: "03", text: "Тохирох" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}
@@ -84,10 +84,9 @@ const ListingDetailsFourArea = () => {
                         </div>
                      </div>
                      <div className="review-form">
-                        <h4 className="mb-20">Leave A Reply</h4>
+                        <h4 className="mb-20">Сэтгэгдэл үлдээх</h4>
                         <p className="fs-20 lh-lg pb-15"><Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
-									className="color-dark fw-500 text-decoration-underline">Sign in</Link> to post your comment or
-								signup if you don&apos;t have any account.</p>
+									className="color-dark fw-500 text-decoration-underline">Нэвтрэх</Link> эсвэл бүртгүүлж сэтгэгдэл үлдээнэ үү.</p>
 
                         <div className="bg-dot p-30">
                            <AgencyFormOne />

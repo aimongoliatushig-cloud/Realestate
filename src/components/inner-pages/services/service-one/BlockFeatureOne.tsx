@@ -35,16 +35,16 @@ const BlockFeatureOne = () => {
                      <div className="block-two ms-xxl-5 wow fadeInRight">
                         <div className="bg-wrapper md-mt-60">
                            <div className="title-one m0">
-                              <h3>120k+  <span>Clients<Image src={featureImg_5} alt="" className="lazy-img" /></span> Rely on our Services.</h3>
+                              <h3>120k+  <span>Үйлчлүүлэгчид<Image src={featureImg_5} alt="" className="lazy-img" /></span> бидэнд итгэдэг.</h3>
                            </div>
-                           <p className="fs-22 mt-45 mb-60 xl-mb-40 pe-xxl-5">Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering .</p>
+                           <p className="fs-22 mt-45 mb-60 xl-mb-40 pe-xxl-5">Бид үл хөдлөх хөрөнгийн зах зээлд олон жилийн туршлагатай баг бүрэлдэхүүнтэйгээр үйл ажиллагаа явуулж байна.</p>
                            <ul className="list-style-one fs-22 color-dark style-none">
-                              <li>Loan &amp; low Interest facility</li>
-                              <li>100k+ Property Listing  added & updated</li>
-                              <li>Expert agent consultation</li>
+                              <li>Зээл, бага хүүгийн нөхцөл</li>
+                              <li>100к+ Үл хөдлөх хөрөнгийн зар нэмэгдсэн</li>
+                              <li>Мэргэжлийн зөвлөхүүдийн үйлчилгээ</li>
                            </ul>
                            <div className="mt-60 lg-mt-40">
-                              <Link href="/contact" className="btn-two">Contact Us</Link>
+                              <Link href="/contact" className="btn-two">Холбоо барих</Link>
                            </div>
                         </div>
                      </div>

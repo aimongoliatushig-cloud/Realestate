@@ -1,4 +1,4 @@
-import Link from "next/link"
+﻿import Link from "next/link"
 import Image from "next/image"
 
 import circleImg from "@/assets/images/icon/icon_39.svg"
@@ -27,7 +27,7 @@ const address_data: DataType[] = [
    {
       id: 3,
       title: "Live chat",
-      address_1: "www.HOZNlivechat.com"
+      address_1: "www.UA Propertieslivechat.com"
    },
 ]
 

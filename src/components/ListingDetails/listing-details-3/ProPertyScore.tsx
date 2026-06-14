@@ -16,26 +16,26 @@ const score_data: DataType[] = [
    {
       id: 1,
       icon: icon_1,
-      title: "Transit Score",
-      desc: (<><span className="color-dark">63</span>/100 (Moderate Distance Walkable)</>),
+      title: "Тээврийн үнэлгээ",
+      desc: (<><span className="color-dark">63</span>/100 (Дунд зэргийн зайтай)</>),
    },
    {
       id: 2,
       icon: icon_2,
-      title: "School Score",
-      desc: (<><span className="color-dark">70</span>/100 (Short Distance Walkable)</>),
+      title: "Сургуулийн үнэлгээ",
+      desc: (<><span className="color-dark">70</span>/100 (Ойр зайтай)</>),
    },
    {
       id: 3,
       icon: icon_3,
-      title: "Medical Score",
-      desc: (<><span className="color-dark">77</span>/100 (Short Distance Walkable)</>),
+      title: "Эмнэлгийн үнэлгээ",
+      desc: (<><span className="color-dark">77</span>/100 (Ойр зайтай)</>),
    },
    {
       id: 4,
       icon: icon_4,
-      title: "Shopping Mall Score",
-      desc: (<><span className="color-dark">42</span>/100 (Long Distance Walkable)</>),
+      title: "Худалдааны төвийн үнэлгээ",
+      desc: (<><span className="color-dark">42</span>/100 (Хол зайтай)</>),
    },
 ];
 
@@ -44,13 +44,13 @@ const ProPertyScore = () => {
       <div className="accordion-item">
          <h2 className="accordion-header">
             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEightA" aria-expanded="true" aria-controls="collapseEightA">
-               Walk Score
+                Явган хүртээмж
             </button>
          </h2>
          <div id="collapseEightA" className="accordion-collapse collapse">
             <div className="accordion-body">
                <div className="property-score">
-                  <p className="fs-20 lh-lg pb-30">Risk management and compliance, when approached strategically, have the potential</p>
+                  <p className="fs-20 lh-lg pb-30">Эрсдэлийн менежмент ба дагаж мөрдөлт нь стратегийн хувьд зөв хандвал боломжуудыг нээж чадна.</p>
                   <div className="row">
                      {score_data.map((item) => (
                         <div key={item.id} className="col-md-6">

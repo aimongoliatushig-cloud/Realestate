@@ -1,8 +1,8 @@
-import ListingOne from "@/components/inner-listing/listing-01";
+﻿import ListingOne from "@/components/inner-listing/listing-01";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Listing One HOZN - Real Estate React Next js",
+   title: "Listing One UA Properties - Real Estate React Next js",
 };
 const index = () => {
    return (

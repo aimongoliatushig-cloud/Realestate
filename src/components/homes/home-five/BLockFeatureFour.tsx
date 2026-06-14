@@ -1,4 +1,4 @@
-import Image from "next/image"
+﻿import Image from "next/image"
 import Count from "@/components/common/Count";
 
 import featureImg_1 from "@/assets/images/media/img_03.jpg";
@@ -19,7 +19,7 @@ const BLockFeatureFour = () => {
                            <Image src={featureImg_1} alt="" className="rounded-circle avatar" />
                            <div className="ps-4">
                               <h6 className="fs-22 mb-5">Ahmad Aljamal.</h6>
-                              <span className="opacity-75">CEO & Head of HOZN Inc</span>
+                              <span className="opacity-75">CEO & Head of UA Properties Inc</span>
                            </div>
                         </div>
                      </div>

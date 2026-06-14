@@ -43,7 +43,7 @@ const setting = {
 const CommonSimilarProperty = () => {
    return (
       <div className="similar-property">
-         <h4 className="mb-40">Similar Homes You May Like</h4>
+         <h4 className="mb-40">Таньд таалагдаж болох ижил төстэй байр</h4>
          <Slider {...setting} className="similar-listing-slider-one">
             {property_data.filter((items) => items.page == "home_3_property_2").map((item) => (
                <div key={item.id} className="item">
@@ -75,7 +75,7 @@ const CommonSimilarProperty = () => {
                         <Link href="/listing_details_06" className="title tran3s">{item.title}</Link>
                         <div className="address m0 pb-5">{item.address}</div>
                         <div className="pl-footer m0 d-flex align-items-center justify-content-between">
-                           <strong className="price fw-500 color-dark">${item.price}</strong>
+                            <strong className="price fw-500 color-dark">₮{item.price}</strong>
                            <ul className="style-none d-flex action-icons">
                               <li><Link href="#"><i className="fa-light fa-heart"></i></Link></li>
                               <li><Link href="#"><i className="fa-light fa-bookmark"></i></Link></li>

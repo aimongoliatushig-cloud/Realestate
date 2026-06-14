@@ -13,7 +13,7 @@ const ServiceOne = () => {
    return (
       <>
          <HeaderOne style={true} />
-         <BreadcrumbOne title="Our Services" link="#" link_title="Pages" sub_title="Services" style={false} />
+          <BreadcrumbOne title="Үйлчилгээнүүд" link="#" link_title="Хуудсууд" sub_title="Үйлчилгээ" style={false} />
          <BlockFeatureOne/>
          <HomeBLockFeatureOne />
          <BlockFeatureTwo style={false} />

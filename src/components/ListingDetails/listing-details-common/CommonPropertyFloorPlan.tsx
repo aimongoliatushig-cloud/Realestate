@@ -6,7 +6,7 @@ import floorPlan_2 from "@/assets/images/listing/floor_2.jpg"
 const CommonPropertyFloorPlan = ({ style }: any) => {
    return (
       <div className={`property-floor-plan ${style ? "bottom-line-dark pb-40 mb-60" : "mb-50"}`}>
-         <h4 className="mb-40">Floor Plans</h4>
+         <h4 className="mb-40">Давхар төлөвлөгөө</h4>
          <div className={` p-30 ${style ? "bg-dot" : "bg-white shadow4 border-20"}`}>
             <div id="floor-plan" className="carousel slide">
                <div className="carousel-indicators">

@@ -8,7 +8,7 @@ const ServiceDetails = () => {
    return (
       <>
          <HeaderOne style={true} />
-         <BreadcrumbOne title="Service Details" link="#" link_title="Service" sub_title="Buy Home" style={true} />
+          <BreadcrumbOne title="Үйлчилгээний дэлгэрэнгүй" link="#" link_title="Үйлчилгээ" sub_title="Орон сууц худалдаж авах" style={true} />
          <ServiceDetailsArea />
          <FancyBanner />
          <FooterFour />

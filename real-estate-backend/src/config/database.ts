@@ -7,7 +7,7 @@ dotenv.config();
 export const sequelize = new Sequelize({
   database: "real_estate_db", // اسم قاعدة البيانات
   username: "postgres",       
-  password: "1572001",  // كلمة المرور الخاصة بك
+  password: "postgres",
   host: "127.0.0.1",
   dialect: "postgres",
   models: [User],

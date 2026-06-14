@@ -34,7 +34,7 @@ const MediaGallery = () => {
           <div className="bg-white shadow4 border-20 p-30 md-mb-20">
             <div className="position-relative z-1 overflow-hidden border-20">
               <div className="img-fancy-btn border-10 fw-500 fs-16 color-dark">
-                Sell all 37 Photos
+                 Бүх 37 зургийг үзэх
                 <Fancybox
                   options={{
                     Carousel: {

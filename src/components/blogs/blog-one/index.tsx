@@ -8,7 +8,7 @@ const BlogOne = () => {
    return (
       <>
          <HeaderFour />
-         <BreadcrumbThree title="Blog Grid" link="#" link_title="Pages" sub_title="Blog" style={false} />
+         <BreadcrumbThree title="Мэдээний сүлжээ" link="#" link_title="Хуудсууд" sub_title="Мэдээ" style={false} />
          <BlogOneArea />
          <FancyBanner />
          <FooterFour />

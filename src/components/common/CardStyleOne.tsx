@@ -9,7 +9,7 @@ const CardStyleOne = ({ style }: any) => {
             <div className="card-style-three mt-40 wow fadeInUp">
                <div className="bg-wrapper text-center">
                   <h3>0<Count number={7} />+</h3>
-                  <p>Years Experience <br />with proud.</p>
+                   <p>Жилийн туршлага<br />бахархалтайгаар.</p>
                </div>
             </div>
          </div>

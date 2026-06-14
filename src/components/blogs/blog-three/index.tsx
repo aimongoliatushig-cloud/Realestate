@@ -8,7 +8,7 @@ const BlogThree = () => {
    return (
       <>
          <HeaderOne style={true} />
-         <BreadcrumbOne title="Blog Full Width" link="#" link_title="Pages" sub_title="Blog" style={true} />
+          <BreadcrumbOne title="Мэдээ өргөн формат" link="#" link_title="Хуудсууд" sub_title="Мэдээ" style={true} />
          <BlogThreeArea />
          <FancyBanner />
          <FooterFour />

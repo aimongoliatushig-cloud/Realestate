@@ -37,8 +37,8 @@ const Feedback = ({ style }: any) => {
       <div className={`feedback-section-six bg-pink-two position-relative z-1 pt-110 xl-pt-80 pb-100 xl-pb-80 ${style ? "" : "mt-170 xl-mt-120"}`}>
          <div className={`container ${style ? "" : "container-large"}`}>
             <div className="title-one text-center mb-80 xl-mb-50 md-mb-30">
-               <h3>Client Feedback</h3>
-               <p className="fs-20 mt-xs">Client satisfaction speaks louder than our words. Hear from them.</p>
+                <h3>Үйлчлүүлэгчдийн сэтгэгдэл</h3>
+                <p className="fs-20 mt-xs">Үйлчлүүлэгчдийн сэтгэл ханамж бидний үгнээс илүүг хэлдэг.</p>
             </div>
             <Slider {...setting} className="feedback-slider-three">
                {feedback_data.filter((items) => items.page === "home_5").map((item) => (

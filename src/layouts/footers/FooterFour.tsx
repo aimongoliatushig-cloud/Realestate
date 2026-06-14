@@ -1,6 +1,6 @@
-import Image from "next/image"
+﻿import Image from "next/image"
 
-import footerLogo from "@/assets/images/logo/logo_06.svg"
+import footerLogo from "@/assets/images/logo/logoua.png"
 import footerShape from "@/assets/images/assets/ils_06.svg"
 import Link from "next/link"
 import footer_data from "@/data/home-data/FooterData"
@@ -42,7 +42,7 @@ const FooterFour = () => {
                </div>
             </div>
             <div className="bottom-footer">
-               <p className="m0 text-center fs-16">Copyright @2025 HOZN.</p>
+               <p className="m0 text-center fs-16">Бүх эрх хамгаалагдсан. © 2025 UA Properties.</p>
             </div>
          </div>
          <Image src={footerShape} alt="" className="lazy-img shapes shape_01" />

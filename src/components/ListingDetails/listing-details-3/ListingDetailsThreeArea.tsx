@@ -34,7 +34,7 @@ const ListingDetailsThreeArea = () => {
                         <CommonPropertyVideoTour />
                      </div>
                      <div className="property-floor-plan border-top p-40">
-                        <h4 className="mb-40">Floor Plans</h4>
+                        <h4 className="mb-40">Давхар төлөвлөгөө</h4>
                         <div className="mt-45">
                            <div className="accordion" id="accordionTwo">
                               <PropertyFloorPlans />
@@ -55,12 +55,12 @@ const ListingDetailsThreeArea = () => {
                      <div className="review-panel-one border-top p-40">
                         <div className="position-relative z-1">
                            <div className="d-sm-flex justify-content-between align-items-center mb-10">
-                              <h4 className="m0 xs-pb-30">Reviews</h4>
+                               <h4 className="m0 xs-pb-30">Сэтгэгдэл</h4>
                               <NiceSelect className="nice-select"
                                  options={[
-                                    { value: "01", text: "Newest" },
-                                    { value: "02", text: "Best Seller" },
-                                    { value: "03", text: "Best Match" },
+                                  { value: "01", text: "Шинэ" },
+                                  { value: "02", text: "Шилдэг" },
+                                  { value: "03", text: "Тохирох" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}

@@ -1,8 +1,8 @@
-"use client"
+﻿"use client"
 import Image from "next/image"
 import Link from "next/link"
 
-import footerLogo from "@/assets/images/logo/logo_07.svg"
+import footerLogo from "@/assets/images/logo/logoua.png"
 import footer_data from "@/data/home-data/FooterData"
 
 const FooterFive = () => {
@@ -65,7 +65,7 @@ const FooterFive = () => {
                </div>
             </div>
             <div className="bottom-footer">
-               <p className="m0 text-center fs-16">Copyright @2025 HOZN.</p>
+               <p className="m0 text-center fs-16">Бүх эрх хамгаалагдсан. © 2025 UA Properties.</p>
             </div>
          </div>
       </div>

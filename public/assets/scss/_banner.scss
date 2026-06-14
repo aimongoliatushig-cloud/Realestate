@@ -19,7 +19,20 @@
 }
 // Hero Banner Two
 .hero-banner-two { 
-    background: linear-gradient(178.61deg, #D7F7FF 1.17%, #B3F0F9 98.81%);
+    background: url(/backnew.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.58) 35%, rgba(0,0,0,0.25) 70%, rgba(0,0,0,0.10) 100%);
+        z-index: 0;
+    }
+    & > * {
+        position: relative;
+        z-index: 1;
+    }
     .line-bg:before {
         content: '';
         position: absolute;
@@ -34,6 +47,7 @@
     .hero-heading {
         font-size: 120px;
         line-height: 1em;
+        color: #FFFFFF;
     }
     .illustration {
         bottom: 0;

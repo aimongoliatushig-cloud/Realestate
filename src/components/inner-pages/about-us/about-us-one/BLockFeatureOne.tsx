@@ -14,12 +14,12 @@ interface ContentType {
 }
 
 const feature_content: ContentType = {
-   sub_title: "About us",
-   desc_1: (<>Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering .</>),
-   title_1: "Who we are?",
-   title_2: "Our Mission",
-   desc_2: (<>Our founders Dustin Moskovitz & Justin Rosenstein met  leading Engineering teams at Facebook. As operations scaled, they grew frustrated by how difficult coordinate</>),
-   desc_3: (<>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore aliqua.</>),
+   sub_title: "Бидний тухай",
+   desc_1: (<>Бидний үүсгэн байгуулагчид Технологийн салбарт олон жилийн туршлагатай бөгөөд үл хөдлөх хөрөнгийн зах зээлд шинэ стандарт тогтоохоор ажиллаж байна.</>),
+   title_1: "Бид хэн бэ?",
+   title_2: "Бидний эрхэм зорилго",
+   desc_2: (<>Бид үйлчлүүлэгчдэдээ хамгийн шилдэг үл хөдлөх хөрөнгийн үйлчилгээг үзүүлж, тэдний мөрөөдлийн гэр, бизнесийн байраа олоход туслахыг зорилгодоо тавьсан.</>),
+   desc_3: (<>Бид ил тод, шударга, найдвартай үйлчилгээгээр үйлчлүүлэгчдийнхээ итгэлийг хүлээж, Монголын үл хөдлөх хөрөнгийн зах зээлд тэргүүлэгч байгууллага болохыг зорьж байна.</>),
 }
 
 const { sub_title, desc_1, title_1, title_2, desc_2, desc_3 } = feature_content;
@@ -33,22 +33,22 @@ const BLockFeatureOne = () => {
                   <div className="me-xxl-4">
                      <div className="title-one mb-60 lg-mb-40">
                         <div className="upper-title">{sub_title}</div>
-                        <h3>Secure your <span>family&apos;s<Image src={titleShape} alt="" className="lazy-img" /></span> Dream home.</h3>
+                        <h3>Таны <span>мөрөөдлийн<Image src={titleShape} alt="" className="lazy-img" /></span> гэр.</h3>
                         <p className="fs-22">{desc_1}</p>
                      </div>
-                     <Link href="/contact" className="btn-two">Contact Us</Link>
+                      <Link href="/contact" className="btn-two">Холбоо барих</Link>
                      <div className="counter-wrapper border-top pt-40 md-pt-10 mt-65 md-mt-40">
                         <div className="row">
                            <div className="col-xxl-6 col-sm-5">
                               <div className="counter-block-one mt-20">
                                  <div className="main-count fw-500 color-dark"><span className="counter"><Count number={1.2} /></span>%</div>
-                                 <span>Low interest rate</span>
+                                  <span>Бага хүүгийн түвшин</span>
                               </div>
                            </div>
                            <div className="col-xxl-6 col-sm-7">
                               <div className="counter-block-one mt-20">
-                                 <div className="main-count fw-500 color-dark">$<span className="counter"><Count number={1.3} /></span>b+</div>
-                                 <span>Cumulative trading volume</span>
+                                  <div className="main-count fw-500 color-dark">₮<span className="counter"><Count number={1.3} /></span>т+</div>
+                                  <span>Хуримтлагдсан арилжааны хэмжээ</span>
                               </div>
                            </div>
                         </div>

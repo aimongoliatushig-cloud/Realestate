@@ -1,7 +1,7 @@
-import Image, { StaticImageData } from "next/image";
+﻿import Image, { StaticImageData } from "next/image";
 import Link from "next/link"
 
-import compareLogo from "@/assets/images/logo/logo_08.svg";
+import compareLogo from "@/assets/images/logo/logoua.png";
 
 import compareThumb_1 from "@/assets/images/listing/img_66.jpg";
 import compareThumb_2 from "@/assets/images/listing/img_67.jpg";

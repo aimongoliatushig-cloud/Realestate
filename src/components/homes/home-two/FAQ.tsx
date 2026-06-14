@@ -11,10 +11,10 @@ const FAQ = () => {
             <div className="row">
                <div className="col-lg-5 wow fadeInLeft">
                   <div className="title-one mb-40 lg-mb-20">
-                     <h2 className="font-garamond">Frequently Asked Question</h2>
-                     <p className="fs-20 mt-xs pt-20 md-pt-10">Don’t find the answer? We can help you.</p>
+                     <h2 className="font-garamond">Түгээмэл асуултууд</h2>
+                     <p className="fs-20 mt-xs pt-20 md-pt-10">Хариултаа олсонгүй юу? Бид танд туслах болно.</p>
                   </div>
-                  <Link href="/faq" className="btn-five sm text-uppercase rounded-0">ASK QUESTIONs</Link>
+                   <Link href="/faq" className="btn-five sm text-uppercase rounded-0">АСУУЛТ АСУУХ</Link>
                </div>
 
                <div className="col-lg-7">

@@ -27,7 +27,7 @@ const feature_listing_data: DataType[] = [
       thumb: featureThumb_1,
       class_name: "active",
       large_thumb: [largeThumb_1, largeThumb_2, largeThumb_3],
-      tag: "FOR RENT",
+      tag: "ТҮРЭЭСГЭЭР",
       price: 123710,
       address: "120 Elgin St. Celina, Delaware",
    },
@@ -35,7 +35,7 @@ const feature_listing_data: DataType[] = [
       id: 2,
       thumb: featureThumb_2,
       large_thumb: [largeThumb_1, largeThumb_2, largeThumb_3],
-      tag: "FOR RENT",
+      tag: "ТҮРЭЭСГЭЭР",
       price: 211536,
       address: "120 Elgin St. Celina, Delaware",
    },
@@ -43,7 +43,7 @@ const feature_listing_data: DataType[] = [
       id: 3,
       thumb: featureThumb_3,
       large_thumb: [largeThumb_1, largeThumb_2, largeThumb_3],
-      tag: "FOR RENT",
+      tag: "ТҮРЭЭСГЭЭР",
       price: 305958,
       address: "120 Elgin St. Celina, Delaware",
    },
@@ -52,7 +52,7 @@ const feature_listing_data: DataType[] = [
 const FeatureListing = () => {
    return (
       <div className="feature-listing bg-white border-20 p-30">
-         <h5 className="mb-40">Featured Listing</h5>
+         <h5 className="mb-40">Онцгой зар</h5>
          <div id="F-listing" className="carousel slide">
             <div className="carousel-indicators">
                <button type="button" data-bs-target="#F-listing" data-bs-slide-to="0" className="active"
@@ -90,7 +90,7 @@ const FeatureListing = () => {
                         <div className="property-info mt-15">
                            <div className="d-flex justify-content-between align-items-end">
                               <div>
-                                 <strong className="price fw-500 color-dark">${item.price}</strong>
+                                  <strong className="price fw-500 color-dark">₮{item.price}</strong>
                                  <div className="address m0 pt-5">{item.address} </div>
                               </div>
                               <Link href="/listing_details_03" className="btn-four rounded-circle">

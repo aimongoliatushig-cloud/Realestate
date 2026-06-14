@@ -2,7 +2,7 @@
 import { useState } from "react";
 import NiceSelect from "@/ui/NiceSelect";
 
-const tab_title: string[] = ["Buy", "Rent",];
+const tab_title: string[] = ["Худалдан авах", "Түрээслэх",];
 
 const DropdownTwo = () => {
 
@@ -34,14 +34,14 @@ const DropdownTwo = () => {
                      <div className="row gx-0 align-items-center">
                         <div className="col-xl-2 col-md-6">
                            <div className="input-box-one border-left">
-                              <div className="label">I’m looking to...</div>
+                              <div className="label">Би хайж байгаа...</div>
                               <NiceSelect className="nice-select fw-normal"
                                  options={[
-                                    { value: "apartments", text: "Buy Apartments" },
-                                    { value: "condos", text: "Rent Condos" },
-                                    { value: "houses", text: "Sell Houses" },
-                                    { value: "industrial", text: "Rent Industrial" },
-                                    { value: "villas", text: "Sell Villas" },
+                                    { value: "apartments", text: "Орон сууц худалдаж авах" },
+                                    { value: "condos", text: "Кондо түрээслэх" },
+                                    { value: "houses", text: "Байшин худалдах" },
+                                    { value: "industrial", text: "Үйлдвэрийн байр түрээслэх" },
+                                    { value: "villas", text: "Вилл худалдах" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}
@@ -51,16 +51,16 @@ const DropdownTwo = () => {
                         </div>
                         <div className="col-xl-3 col-md-6">
                            <div className="input-box-one border-left">
-                              <div className="label">Location</div>
+                              <div className="label">Байршил</div>
                               <NiceSelect className="nice-select location fw-normal"
                                  options={[
-                                    { value: "germany", text: "Berlin, Germany" },
-                                    { value: "dhaka", text: "Dhanmondi, Dhaka" },
-                                    { value: "mexico", text: "Acapulco, Mexico" },
-                                    { value: "france", text: "Cannes, France" },
-                                    { value: "india", text: "Delhi, India" },
-                                    { value: "giza", text: "Giza, Egypt" },
-                                    { value: "cuba", text: "Havana, Cuba" },
+                                    { value: "germany", text: "Баянзүрх, Улаанбаатар" },
+                                    { value: "dhaka", text: "Сүхбаатар, Улаанбаатар" },
+                                    { value: "mexico", text: "Хан-Уул, Улаанбаатар" },
+                                    { value: "france", text: "Баянгол, Улаанбаатар" },
+                                    { value: "india", text: "Чингэлтэй, Улаанбаатар" },
+                                    { value: "giza", text: "Сонгинохайрхан, Улаанбаатар" },
+                                    { value: "cuba", text: "Налайх, Улаанбаатар" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}
@@ -70,19 +70,19 @@ const DropdownTwo = () => {
                         </div>
                         <div className="col-xl-3 col-md-6">
                            <div className="input-box-one border-left">
-                              <div className="label">Keyword</div>
-                              <input type="text" placeholder="buy, home, loft, apartment" className="type-input" />
+                              <div className="label">Түлхүүр үг</div>
+                              <input type="text" placeholder="худалдаа, түрээс, орон сууц" className="type-input" />
                            </div>
                         </div>
                         <div className="col-xl-3 col-md-6">
                            <div className="input-box-one border-left">
-                              <div className="label">Price Range</div>
+                              <div className="label">Үнийн диапазон</div>
                               <NiceSelect
                                  className="nice-select fw-normal"
                                  options={[
-                                    { value: "1", text: "$10,000 - $200,000" },
-                                    { value: "2", text: "$20,000 - $300,000" },
-                                    { value: "3", text: "$30,000 - $400,000" },
+                                    { value: "1", text: "₮10,000 - ₮200,000" },
+                                    { value: "2", text: "₮20,000 - ₮300,000" },
+                                    { value: "3", text: "₮30,000 - ₮400,000" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}
@@ -105,14 +105,14 @@ const DropdownTwo = () => {
                      <div className="row gx-0 align-items-center">
                         <div className="col-xl-2 col-md-6">
                            <div className="input-box-one border-left">
-                              <div className="label">I’m looking to...</div>
+                              <div className="label">Би хайж байгаа...</div>
                               <NiceSelect className="nice-select fw-normal"
                                  options={[
-                                    { value: "industrial", text: "Rent Industrial" },
-                                    { value: "apartments", text: "Buy Apartments" },
-                                    { value: "condos", text: "Rent Condos" },
-                                    { value: "houses", text: "Sell Houses" },
-                                    { value: "villas", text: "Sell Villas" },
+                                    { value: "industrial", text: "Үйлдвэрийн байр түрээслэх" },
+                                    { value: "apartments", text: "Орон сууц худалдаж авах" },
+                                    { value: "condos", text: "Кондо түрээслэх" },
+                                    { value: "houses", text: "Байшин худалдах" },
+                                    { value: "villas", text: "Вилл худалдах" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}
@@ -122,16 +122,16 @@ const DropdownTwo = () => {
                         </div>
                         <div className="col-xl-3 col-md-6">
                            <div className="input-box-one border-left">
-                              <div className="label">Location</div>
+                              <div className="label">Байршил</div>
                               <NiceSelect className="nice-select location fw-normal"
                                  options={[
-                                    { value: "germany", text: "Berlin, Germany" },
-                                    { value: "dhaka", text: "Dhanmondi, Dhaka" },
-                                    { value: "mexico", text: "Acapulco, Mexico" },
-                                    { value: "france", text: "Cannes, France" },
-                                    { value: "india", text: "Delhi, India" },
-                                    { value: "giza", text: "Giza, Egypt" },
-                                    { value: "cuba", text: "Havana, Cuba" },
+                                    { value: "germany", text: "Баянзүрх, Улаанбаатар" },
+                                    { value: "dhaka", text: "Сүхбаатар, Улаанбаатар" },
+                                    { value: "mexico", text: "Хан-Уул, Улаанбаатар" },
+                                    { value: "france", text: "Баянгол, Улаанбаатар" },
+                                    { value: "india", text: "Чингэлтэй, Улаанбаатар" },
+                                    { value: "giza", text: "Сонгинохайрхан, Улаанбаатар" },
+                                    { value: "cuba", text: "Налайх, Улаанбаатар" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}
@@ -141,19 +141,19 @@ const DropdownTwo = () => {
                         </div>
                         <div className="col-xl-3 col-md-6">
                            <div className="input-box-one border-left">
-                              <div className="label">Keyword</div>
-                              <input type="text" placeholder="buy, home, loft, apartment" className="type-input" />
+                              <div className="label">Түлхүүр үг</div>
+                              <input type="text" placeholder="худалдаа, түрээс, орон сууц" className="type-input" />
                            </div>
                         </div>
                         <div className="col-xl-3 col-md-6">
                            <div className="input-box-one border-left">
-                              <div className="label">Price Range</div>
+                              <div className="label">Үнийн диапазон</div>
                               <NiceSelect
                                  className="nice-select fw-normal"
                                  options={[
-                                    { value: "1", text: "$10,000 - $200,000" },
-                                    { value: "2", text: "$20,000 - $300,000" },
-                                    { value: "3", text: "$30,000 - $400,000" },
+                                    { value: "1", text: "₮10,000 - ₮200,000" },
+                                    { value: "2", text: "₮20,000 - ₮300,000" },
+                                    { value: "3", text: "₮30,000 - ₮400,000" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}

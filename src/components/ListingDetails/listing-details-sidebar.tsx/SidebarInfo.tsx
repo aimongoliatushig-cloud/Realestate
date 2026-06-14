@@ -9,8 +9,8 @@ const SidebarInfo = () => {
          <Image src={infoAvatar} alt=""
             className="lazy-img rounded-circle ms-auto me-auto mt-3 avatar" />
          <div className="text-center mt-25">
-            <h6 className="name">Rashed Kabir</h6>
-            <p className="fs-16">Property Agent & Broker</p>
+            <h6 className="name">Э.Оюунтөмөр</h6>
+            <p className="fs-16">Үл хөдлөх хөрөнгийн зууч</p>
             <ul className="style-none d-flex align-items-center justify-content-center social-icon">
                <li><Link href="#"><i className="fa-brands fa-facebook-f"></i></Link></li>
                <li><Link href="#"><i className="fa-brands fa-twitter"></i></Link></li>
@@ -20,13 +20,13 @@ const SidebarInfo = () => {
          </div>
          <div className="divider-line mt-40 mb-45 pt-20">
             <ul className="style-none">
-               <li>Location: <span>Spain, Barcelona</span></li>
-               <li>Email: <span><Link href="mailto:Email@gmail.com">Email@gmail.com</Link></span>
+               <li>Байршил: <span>Барселона, Испани</span></li>
+               <li>И-мэйл: <span><Link href="mailto:Email@gmail.com">Email@gmail.com</Link></span>
                </li>
-               <li>Phone: <span><Link href="tel:+21000000000">+2100 000 0000</Link></span></li>
+               <li>Утас: <span><Link href="tel:+21000000000">+2100 000 0000</Link></span></li>
             </ul>
          </div>
-         <Link href="/contact" className="btn-nine text-uppercase rounded-3 w-100 mb-10">CONTACT AGENT</Link>
+         <Link href="/contact" className="btn-nine text-uppercase rounded-3 w-100 mb-10">ЗУУЧТАЙ ХОЛБОГДОХ</Link>
       </>
    )
 }

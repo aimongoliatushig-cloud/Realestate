@@ -9,7 +9,7 @@ const BreadcrumbOne = ({ title, sub_title, style, link, link_title }: any) => {
          <div className="container">
             <h3 className="mb-35 xl-mb-20 pt-15">{title}</h3>
             <ul className="theme-breadcrumb style-none d-inline-flex align-items-center justify-content-center position-relative z-1 bottom-line">
-               <li><Link href="/">Home</Link></li>
+               <li><Link href="/">Нүүр</Link></li>
                <li>/</li>
                {style && <>
                   <li><Link href={link}>{link_title}</Link></li>
