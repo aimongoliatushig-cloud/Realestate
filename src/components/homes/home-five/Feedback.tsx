@@ -32,7 +32,7 @@ const setting = {
    ]
 }
 
-const Feedback = ({ style }: any) => {
+const Feedback = ({ style }: { style?: boolean }) => {
    return (
       <div className={`feedback-section-six bg-pink-two position-relative z-1 pt-110 xl-pt-80 pb-100 xl-pb-80 ${style ? "" : "mt-170 xl-mt-120"}`}>
          <div className={`container ${style ? "" : "container-large"}`}>
